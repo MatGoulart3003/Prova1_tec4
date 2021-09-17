@@ -1,21 +1,68 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-/*
-h1{
-
-}
-
-."nome da class" (seletor class){
-
-}
-#"nome da id" (seletor ID){
-
-}
-
-img{
     
 }
 
+
+h1{
+    padding: 10px;
+    text-align: center;
+}
+
+.tabela{
+    padding-left: 5px ;
+}
+
+table,td,th{
+    
+    font-size: 12px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+#classif{
+    padding: 0 100px;
+}
+#pontos{
+    padding: 0 35px;
+}
+#jogos{
+    padding: 0 25px;
+}
+#saldo{
+    padding: 0 45px;
+}
+
+th{
+    text-align: center;
+}
+
+#idTela{
+
+    height: 400px;
+    width: 700px;
+    border:1px black solid;
+    margin: 30px auto;
+
+}
+
+.alinhadoCentro{
+
+    text-align: center;
+    
+}
+
+img{
+
+    display: inline-block;
+    width: 300px;
+    
+}
+
+.cinza{
+
+    background-color: rgb(184, 184, 184);
+
+}
